@@ -6,7 +6,9 @@ To install, download the latest release or compile from source. Add the `.dll` t
 
 To use, click on the icon ![icon](https://github.com/TastyGod/MarkdownTableGenerator/blob/master/MarkdownTableGenerator/Resources/spreadshett.png) that is now on your toolbar.
 
-![interface](/interface.png)
+![interface](/interface.gif)
+
+![interface](/fill.gif)
 
 The buttons are pretty self explanitory. The `:---`, `---:`, and `:---:` buttons enter their contents into the cells you select. The `Insert` button puts your table as markdown where your cursor in Notepad++ is currently at. The `Fill` button takes the markdown table you have selected and inserts it into the interface table. Note: `Fill` will produce an error if your selection is not the same table format as the plugin generates.
 
@@ -18,6 +20,7 @@ Here is an example of the output:
 | and | here | are | 
 | some |  |  | 
 |  | contents! |  | 
+
 
 ```
 
