@@ -93,15 +93,12 @@ namespace MarkdownTableGenerator.Forms
         {
             if (row == null || row.Cells == null)
                 return true;
-            bool output = true;
             foreach(DataGridViewTextBoxCell cell in row.Cells)
             {
-                if (cell == null || cell.Value == null)
-                    output = true;
-                else
-                    output = false;
+                if (cell != null && cell.Value != null)
+                    return false;
             }
-            return output;
+            return true;
         }
 
         private void fillButton_Click(object sender, EventArgs e)
