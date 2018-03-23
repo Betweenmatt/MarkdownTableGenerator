@@ -30,3 +30,4 @@ Here is an example of the output:
 | some |  |  | 
 |  | contents! |  | 
 
+[Made using Notepad++ Plugin Pack.Net](https://github.com/kbilsted/NotepadPlusPlusPluginPack.Net)
